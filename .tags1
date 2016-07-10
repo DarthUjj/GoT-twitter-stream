@@ -1,0 +1,11 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+express	C:\Users\arora\Documents\GitHub\got-twitter-stream\server.js	/^var express = require('express'),$/;"	variable	line:2
+app	C:\Users\arora\Documents\GitHub\got-twitter-stream\server.js	/^var app = express();$/;"	variable	line:12
+port	C:\Users\arora\Documents\GitHub\got-twitter-stream\server.js	/^var port = process.env.PORT || 8080;$/;"	variable	line:13
+server	C:\Users\arora\Documents\GitHub\got-twitter-stream\server.js	/^var server = http.createServer(app).listen(port, function() {$/;"	variable	line:37
+io	C:\Users\arora\Documents\GitHub\got-twitter-stream\server.js	/^var io = require('socket.io').listen(server);$/;"	variable	line:42
