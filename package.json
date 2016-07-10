@@ -1,0 +1,41 @@
+{
+  "name": "got-twitter-stream",
+  "version": "1.0.0",
+  "description": "A react app that shows a real time twitter stream for #GameofThrones",
+  "main": "app.js",
+  "scripts": {
+    "watch": "watchify app.js -o public/js/bundle.js -v",
+    "browserify": "browserify app.js | uglifyjs > public/js/bundle.js",
+    "build": "npm run browserify",
+    "start": "npm run watch && nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarthUjj/got-twitter-stream.git"
+  },
+  "author": "Ujjwal Arora <arora.ujjwal@gmail.com> (http://ujjwalarora.xyz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarthUjj/got-twitter-stream/issues"
+  },
+  "homepage": "https://github.com/DarthUjj/got-twitter-stream#readme",
+  "dependencies": {
+    "express": "~4.9.8",
+    "express-handlebars": "~1.1.0",
+    "mongoose": "^4.5.3",
+    "react": "~0.11.2",
+    "node-jsx": "0.13.3",
+    "ntwitter": "0.5.0",
+    "socket.io": "1.4.8"
+  },
+  "devDependencies": {
+    "browserify": "~6.0.3",
+    "nodemon": "latest",
+    "reactify": "~0.14.1",
+    "uglify-js": "latest",
+    "watchify": "latest"
+  },
+  "browserify": {
+    "transform": "reactify"
+  }
+}
