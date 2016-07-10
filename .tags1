@@ -4,3 +4,6 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+React	C:\Users\arora\Documents\GitHub\got-twitter-stream\app.js	/^var React = require('react');$/;"	variable	line:3
+TweetsApp	C:\Users\arora\Documents\GitHub\got-twitter-stream\app.js	/^var TweetsApp = require('.\/components\/TweetsApp.react');$/;"	variable	line:4
+initalSate	C:\Users\arora\Documents\GitHub\got-twitter-stream\app.js	/^var initalSate = JSON.parse(document.getElementById('initial-state').innerHTML);$/;"	variable	line:7
