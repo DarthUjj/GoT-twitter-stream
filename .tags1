@@ -4,8 +4,3 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-JSX	C:\Users\arora\Documents\GitHub\got-twitter-stream\routes.js	/^var JSX = require('node-jsx').install(),$/;"	variable	line:1
-index	C:\Users\arora\Documents\GitHub\got-twitter-stream\routes.js	/^	index: function(req, res) {$/;"	function	line:8
-module.exports.index	C:\Users\arora\Documents\GitHub\got-twitter-stream\routes.js	/^	index: function(req, res) {$/;"	method	line:8
-page	C:\Users\arora\Documents\GitHub\got-twitter-stream\routes.js	/^	page: function(req, res) {$/;"	function	line:28
-module.exports.page	C:\Users\arora\Documents\GitHub\got-twitter-stream\routes.js	/^	page: function(req, res) {$/;"	method	line:28
