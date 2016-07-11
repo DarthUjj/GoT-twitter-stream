@@ -1,7 +1,8 @@
 var JSX = require('node-jsx').install(),
 	React = require('react'),
 	TweetsApp = require('./components/TweetsApp.react'),
-	Tweet = require('./models/Tweet');
+	mongoose = require('mongoose');
+	Tweet = mongoose.model('Tweet');
 
 module.exports = {
 

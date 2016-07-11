@@ -143,7 +143,7 @@ module.exports = TweetsApp = React.createClass({
         <Loader paging={this.state.paging}/>
         <NotificationBar count={this.state.count} onShowNewTweets={this.showNewTweets}/>
       </div>
-    )
+    );
 
   }
 

@@ -1,15 +1,21 @@
+// Twitter keys stored in .env
+require('dotenv').config();
+
 // Require the dependencies
 var express = require('express'),
 	exphbs = require('express-handlebars'),
 	http = require('http'),
-	mongoose = require('mongoose'),
-	routes = require('./routes'),
+	mongoose = require('mongoose');
+
+// Load the Tweet model
+require('./models/Tweet');
+
+var routes = require('./routes'),
 	config = require('./config'),
 	twitter = require('ntwitter'),
 	streamHandler = require('./utils/streamHandler');
 
-// Twitter keys stored in .env
-require('dotenv').config();
+
 
 // Create express instance and set port var
 var app = express();
@@ -23,6 +29,9 @@ app.set('view engine', 'handlebars');
 
 // Disable etag headers on responses
 app.disable('etag');
+
+// Connect to our mongo database
+mongoose.connect('mongodb://localhost/got-twitter-stream');
 
 // Create a new ntwitter instance
 var twit = new twitter(config.twitter);

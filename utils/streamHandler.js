@@ -1,4 +1,5 @@
-var Tweet = require('./models/Tweet');
+var mongoose = require('mongoose'),
+	Tweet = mongoose.model('Tweet');
 
 
 module.exports = function(stream, io) {
@@ -16,15 +17,16 @@ module.exports = function(stream, io) {
 			date: data['created_at'],
 			screenname: data['user']['screen_name']
 		};
+
+		// Create a new model instance and save it to db
+		var tweetEntry = new Tweet(tweet);
+
+		tweetEntry.save(function(err) {
+			if(!err) {
+				io.emit('tweet', tweet);
+			}
+		});
+
 	});
-
-	// Create a new model instance and save it to db
-  var tweetEntry = new Tweet(tweet);
-
-  tweetEntry.save(function(err) {
-    if(!err) {
-      io.emit('tweet', tweet);
-    }
-  });
 
 };
