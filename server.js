@@ -55,7 +55,8 @@ var io = require('socket.io').listen(server);
 
 // Set a stream listener for Game of Thrones tweets
 twit.stream('statuses/filter', {
-	track: 'GoT, GameofThrones',
+	track: 'GameofThrones, Game of Thrones, #got',
+	language: 'en'
 }, function(stream) {
 	streamHandler(stream, io);
 });
