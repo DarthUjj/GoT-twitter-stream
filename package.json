@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DarthUjj/got-twitter-stream.git"
+    "url": "git+https://github.com/azwreith/got-twitter-stream.git"
   },
   "author": "Ujjwal Arora <arora.ujjwal@gmail.com> (http://ujjwalarora.xyz)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DarthUjj/got-twitter-stream/issues"
+    "url": "https://github.com/azwreith/got-twitter-stream/issues"
   },
-  "homepage": "https://github.com/DarthUjj/got-twitter-stream#readme",
+  "homepage": "https://github.com/azwreith/got-twitter-stream#readme",
   "dependencies": {
     "dotenv": "^2.0.0",
     "express": "~4.9.7",
