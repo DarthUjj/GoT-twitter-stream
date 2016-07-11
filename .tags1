@@ -4,18 +4,3 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-React	C:\Users\arora\Documents\GitHub\got-twitter-stream\components\TweetsApp.react.js	/^var React = require('react');$/;"	variable	line:3
-Tweets	C:\Users\arora\Documents\GitHub\got-twitter-stream\components\TweetsApp.react.js	/^var Tweets = require('.\/Tweets.react.js');$/;"	variable	line:4
-Loader	C:\Users\arora\Documents\GitHub\got-twitter-stream\components\TweetsApp.react.js	/^var Loader = require('.\/Loader.react.js');$/;"	variable	line:5
-NotificationBar	C:\Users\arora\Documents\GitHub\got-twitter-stream\components\TweetsApp.react.js	/^var NotificationBar = require('.\/NotificationBar.react.js');$/;"	variable	line:6
-addTweet	C:\Users\arora\Documents\GitHub\got-twitter-stream\components\TweetsApp.react.js	/^  addTweet: function(tweet){$/;"	function	line:11
-getPage	C:\Users\arora\Documents\GitHub\got-twitter-stream\components\TweetsApp.react.js	/^  getPage: function(page){$/;"	function	line:20
-onload	C:\Users\arora\Documents\GitHub\got-twitter-stream\components\TweetsApp.react.js	/^    request.onload = function() {$/;"	function	line:26
-showNewTweets	C:\Users\arora\Documents\GitHub\got-twitter-stream\components\TweetsApp.react.js	/^  showNewTweets: function(){$/;"	function	line:40
-loadPagedTweets	C:\Users\arora\Documents\GitHub\got-twitter-stream\components\TweetsApp.react.js	/^  loadPagedTweets: function(tweets){$/;"	function	line:53
-setTimeout	C:\Users\arora\Documents\GitHub\got-twitter-stream\components\TweetsApp.react.js	/^      setTimeout(function(){$/;"	function	line:65
-checkWindowScroll	C:\Users\arora\Documents\GitHub\got-twitter-stream\components\TweetsApp.react.js	/^  checkWindowScroll: function(){$/;"	function	line:81
-getInitialState	C:\Users\arora\Documents\GitHub\got-twitter-stream\components\TweetsApp.react.js	/^  getInitialState: function(props){$/;"	function	line:101
-componentWillReceiveProps	C:\Users\arora\Documents\GitHub\got-twitter-stream\components\TweetsApp.react.js	/^  componentWillReceiveProps: function(newProps, oldProps){$/;"	function	line:116
-componentDidMount	C:\Users\arora\Documents\GitHub\got-twitter-stream\components\TweetsApp.react.js	/^  componentDidMount: function(){$/;"	function	line:120
-render	C:\Users\arora\Documents\GitHub\got-twitter-stream\components\TweetsApp.react.js	/^  render: function(){$/;"	function	line:138

@@ -8,6 +8,9 @@ var express = require('express'),
 	twitter = require('ntwitter'),
 	streamHandler = require('./utils/streamHandler');
 
+// Twitter keys stored in .env
+require('dotenv').config();
+
 // Create express instance and set port var
 var app = express();
 var port = process.env.PORT || 8080;

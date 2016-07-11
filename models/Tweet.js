@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 
 // Create a new schema for tweet data
-var Tweet = new mongoose.Schema({
+var schema = new mongoose.Schema({
 	twid: String,
 	active: Boolean,
 	author: String,
@@ -12,7 +12,7 @@ var Tweet = new mongoose.Schema({
 });
 
 // Crate a static method to return data from db
-Tweet.statics.getTweets = function(page, skip, callback) {
+schema.statics.getTweets = function(page, skip, callback) {
 	var tweets = [],
 		start = (page * 10) + (skip * 1);
 
@@ -37,4 +37,4 @@ Tweet.statics.getTweets = function(page, skip, callback) {
 };
 
 // Return Tweet model
-module.exports = mongoose.model('Tweet', Tweet);
+module.exports = Tweet = mongoose.model('Tweet', schema);
